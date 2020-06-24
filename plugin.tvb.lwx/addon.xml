@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.tvb.lwx" version="1.0.0" name="TVB Live" provider-name="lwx">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+
+  <requires>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tvb Plugin</summary>
+    <description lang="en_GB">Plugin for playing Tvb Live</description>
+  </extension>
+</addon>
